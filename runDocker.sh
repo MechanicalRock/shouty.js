@@ -2,4 +2,4 @@
 
 docker build . -t shouty.js
 
-docker run -it -v `pwd`:/shouty.js shouty.js /bin/bash
+docker run -it -p 3000:3000 -v `pwd`:/shouty.js shouty.js /bin/bash

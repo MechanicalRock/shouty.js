@@ -17,7 +17,7 @@
     "mocha": "mocha",
     "cucumber": "cucumber-js",
     "test": "npm-run-all --silent -c mocha cucumber",
-    "watch": "npm-watch"
+    "watch": "npm-watch",
   },
   "repository": {
     "type": "git",
